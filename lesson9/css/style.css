@@ -12,7 +12,11 @@ body {
   background: linear-gradient(90deg, #fcffe0, #bacd92, #75a47f);
   background-attachment: fixed;
 }
-
+a:hover {
+  color: #75a47f;
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
 .header,
 .footer {
   padding: 25px;
@@ -44,3 +48,27 @@ body {
   color: #999999;
   text-decoration: line-through;
 }
+
+.shop-btn {
+  display: inline-block;
+  background-color: #00b207;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 43px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.shop-btn:hover {
+  background-color: #1e402c;
+}
+
+.footer__up {
+  color: #2f6142;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer__up:hover {
+  text-decoration: underline;
+}
+
